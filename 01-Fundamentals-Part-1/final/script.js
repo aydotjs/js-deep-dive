@@ -195,17 +195,14 @@
 
 // console.log('23' - "10" -3 + "5");//105
 
-
 // let n = "1" + 1//11
 // n -= 1
 // console.log(n);//10
 
 // console.log('10' - "4" - "3" + "5");//35
 
-
 //TRUTHY AND FALSY VALUES
 //0, "", undefined, null, NaN
-
 
 // console.log(Boolean(0));//false
 // console.log(Boolean(''));//false
@@ -222,7 +219,6 @@
 // }else{
 //     console.log('get a job');
 // }
-
 
 //EQUALITY OPERATOR
 // const age = Number(prompt("Enter you age"))
@@ -247,3 +243,66 @@
 // 3. Create a boolean variable 'ciromaHigherBMI' containing information about whether Ciroma has a higher BMI than Dumebi.
 // TEST DATA 1: Ciroma weights 78 kg and is 1.69 m tall. Dumebi weights 92 kg and is 1.95 m tall.
 // TEST DATA 2: Ciroma weights 95 kg and is 1.88 m tall. Dumebi weights 85 kg and is 1.76 m tall.
+
+// const ciromaMass = 78;
+// const dumebiMass = 92;
+// const ciromaHeight = 1.69;
+// const dumebiHeight = 1.95;
+
+// const ciromaBMI = ciromaMass/ciromaHeight ** 2
+// const dumebiBMI = dumebiMass/ (dumebiHeight * dumebiHeight)
+// console.log("Ciroma bmi",ciromaBMI);
+// console.log("dumebi bmi", dumebiBMI);
+// const ciromaHigherBMI = ciromaBMI > dumebiBMI
+// console.log(ciromaHigherBMI);
+
+// const ciromaMass = 95;
+// const dumebiMass = 85;
+// const ciromaHeight = 1.88;
+// const dumebiHeight = 1.76;
+
+// const ciromaBMI = ciromaMass/ciromaHeight ** 2
+// const dumebiBMI = dumebiMass/ (dumebiHeight * dumebiHeight)
+// console.log("Ciroma bmi",ciromaBMI);
+// console.log("dumebi bmi", dumebiBMI);
+// const ciromaHigherBMI = ciromaBMI > dumebiBMI
+// console.log(ciromaHigherBMI);
+
+//BOOLEAN LOGIC
+
+// const isDarkSkinned = true;
+// const isHausa = false;
+
+// console.log(!isDarkSkinned);
+// console.log(!isHausa);
+
+// if (isDarkSkinned === true || isHausa === true) {
+//   console.log("Transfer successful");
+// } else {
+//   console.log("Invalid Transfer");
+// }
+
+// console.log(true && true || false && true);//true
+// console.log(true && !true || false || true);//true
+// console.log(!true || false || true);//true
+
+//CONDITIONAL TERNARY OPERATOR
+/*
+if (age > 18) {
+  console.log("you can drink wine");
+} else {
+  console.log("you can drink water");
+}
+*/
+// const age = 2;
+// const isAdult = age > 18 ? "yaay" : "naayy";
+// console.log(isAdult);
+
+//STATEMENTS AND EXPRESSIONS
+
+const x = 5;
+console.log(`${5}`);
+
+console.log(5*10*29);
+const greeting = "Hello"
+ const isAdult = age > 18 ? "yaay" : "naayy";
