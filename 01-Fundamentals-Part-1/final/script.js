@@ -300,9 +300,9 @@ if (age > 18) {
 
 //STATEMENTS AND EXPRESSIONS
 
-const x = 5;
-console.log(`${5}`);
+// const x = 5;
+// console.log(`${5}`);
 
-console.log(5*10*29);
-const greeting = "Hello"
- const isAdult = age > 18 ? "yaay" : "naayy";
+// console.log(5*10*29);
+// const greeting = "Hello"
+//  const isAdult = age > 18 ? "yaay" : "naayy";
